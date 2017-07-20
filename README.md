@@ -1,1 +1,1 @@
-###A collection of projects###
+A collection of projects
