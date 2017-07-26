@@ -1,8 +1,9 @@
+/**************************DESKTOP VIEW*************************/
+@media only screen and (min-width: 1011px){
 body{
   margin: 0;
   font-family: 'Montserrat', sans-serif;
   width: 98%;
-  display: flex;
 }
 
 /*HEADER*/
@@ -58,9 +59,21 @@ body{
   cursor: pointer;
 }
 
+.fa-arrow-left{
+  display: none;
+}
+
 #myName{
   font-size: 1.45em;
   font-family: 'Nunito', sans-serif;
+}
+
+#mobilePhone{
+  display: none;
+}
+
+.mobileMenu{
+  display: none;
 }
 
 /*PROJECT TITLE*/
@@ -76,9 +89,9 @@ body{
 h2{
 display: block;
 font-family: 'Nunito', sans-serif;
-font-size: 2em;
+font-size: 2.5em;
 width: 98%;
-margin: 2% auto 1.5% auto;
+margin: 2% auto 2% auto;
 align-items: center;
 }
 
@@ -133,4 +146,127 @@ a{
 
 a:hover{
   color: #E2492F;
+  }
+}
+
+/**************************MOBILE VIEW*************************/
+
+@media only screen and (max-width: 1010px){
+
+body{
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+  width: 98%;
+}
+
+  .headerWrapper{
+    width: 100%;
+    margin: 0 auto 2% auto;
+    padding: 1% 2% 1% 2%;
+    align-items: center;
+  }
+
+.fa-arrow-left{
+    font-size: 2em;
+    color: #E2492F;
+    display: inline-block;
+    margin-top: 2%;
+    width: 10%;
+  }
+
+#myName{
+  font-size: 2.6em;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+}
+
+#mobilePhone{
+  text-align: center;
+  font-size: 1.3em;
+}
+
+#personalTitle{
+  display: none;
+}
+
+
+.linkButtons a{
+display: none;
+}
+
+.mobileMenu{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 3% 0;
+}
+
+.mobileMenu a{
+  flex-direction: column;
+  padding: 1.45% 3.5%;
+  margin: 0 5%;
+  border-radius: 3px;
+  background-color: #E2492F;
+  color: white;
+  font-size: 1.65em;
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+}
+
+.mobileMenu a:hover{
+  margin: 0 4.75%;
+  border: solid 2px #E2492F;
+  background-color: white;
+  color: #E2492F;
+}
+
+.titleWrapper{
+  margin-bottom: 5%;
+}
+
+.titleWrapper a{
+  display: block;
+  text-align: center;
+  font-size: 1.45em;
+}
+
+h2{
+display: block;
+font-family: 'Nunito', sans-serif;
+font-size: 2.5em;
+width: 98%;
+margin: 2% auto 2% auto;
+}
+
+span{
+  display: none;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  color: #E2492F;
+  }
+
+  .desktopProjImage{
+    display: none;
+  }
+
+  .projectDesc h4{
+    font-size: 1.65em;
+    display: block;
+    margin: 2% 0;
+  }
+
+  .buildList{
+    display: flex;
+  }
+
+  .buildList li{
+    flex: 1;
+  }
 }
