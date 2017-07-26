@@ -131,6 +131,12 @@ align-items: center;
   margin-left: 3%;
 }
 
+.desktopProjImage{
+  width: 80%;
+  flex-direction: column;
+  float: left;
+}
+
 .projectDesc{
   flex-direction: column;
   width: 45%;
