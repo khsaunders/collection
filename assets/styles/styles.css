@@ -55,6 +55,10 @@
     font-family: 'Nunito', sans-serif;
   }
 
+  #mobilePhone{
+    display: none;
+  }
+
   .tabletMenu{
     display: none;
   }
@@ -91,6 +95,27 @@
     line-height: 1.5;
     width: 65%;
     margin: 0 auto;
+  }
+
+  footer{
+    text-align: center;
+    margin: 0 auto 1% auto;
+  }
+
+  .footerLinks a{
+    display: inline-block;
+    font-size: 1.8em;
+    color: #E2492F;
+    margin: 0 .6% .95% .6%;
+  }
+
+  .footerLinks a:hover{
+    cursor: pointer;
+  }
+  .copyright{
+    width: 100%;
+    text-align: center;
+    font-size: .85em;
   }
 }
 
@@ -205,6 +230,27 @@
   .bio{
     margin: 2% auto;
     width: 80%;
+  }
+
+  footer{
+    text-align: center;
+    margin: 0 auto 1% auto;
+  }
+
+  .footerLinks a{
+    display: inline-block;
+    font-size: 1.8em;
+    color: #E2492F;
+    margin: 0 .6% .95% .6%;
+  }
+
+  .footerLinks a:hover{
+    cursor: pointer;
+  }
+  .copyright{
+    width: 100%;
+    text-align: center;
+    font-size: .85em;
   }
 
 }
