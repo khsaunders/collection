@@ -68,7 +68,7 @@ body{
 }
 
 #myName{
-  font-size: 1.45em;
+  font-size: 1.65em;
   font-family: 'Nunito', sans-serif;
 }
 
@@ -344,7 +344,7 @@ a:hover{
 
 /**************************MOBILE VIEW*************************/
 
-@media only screen and (max-width: 552px){
+@media only screen and (min-width : 320px) and (max-width: 600px){
   body{
     margin: 0 auto;
     font-family: 'Montserrat', sans-serif;
