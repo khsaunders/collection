@@ -33,6 +33,14 @@ a:hover{
   color: white;
   padding: .5% 1%;
   border-radius: 1px;
+  margin-right: 1%;
+}
+
+#contactBtn:hover{
+  background-color: white;
+  color: #E2492F;
+  border: solid .5px #E2492F;
+  margin-right: .5%;
 }
 
 #myName{
@@ -58,4 +66,14 @@ a:hover{
 .picGridimg{
   width: 95%;
   height: auto;
+}
+
+.projLink a{
+  margin: 0 auto;
+  display: none;
+}
+
+.bio{
+  width: 65%;
+  margin: 0 auto;
 }

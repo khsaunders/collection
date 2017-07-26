@@ -1,0 +1,73 @@
+body{
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  width: 98%;
+  display: flex;
+}
+
+.titleWrapper{
+  width: 30%;
+  margin: 5% auto 0 auto;
+  text-align: center;
+}
+
+/*BODY*/
+
+h2{
+font-family: 'Nunito', sans-serif;
+font-size: 2em;
+width: 98%;
+margin: 2% auto 1.5% auto;
+align-items: center;
+}
+
+.projectLine{
+  /*margin: 0 auto 5% auto;*/
+  font-size: 1.2em;
+}
+
+.projectLink{
+  margin-top: 25em;
+}
+
+/*content div -- flex container ftw*/
+
+.contentWrapper{
+  display: flex;
+  margin-top: 7%;
+}
+
+.projectImage{
+  width: 50%;
+  flex-direction: column;
+  margin-left: 3%;
+}
+
+.projectDesc{
+  flex-direction: column;
+  width: 45%;
+  margin: 0 2%;
+}
+
+h4{
+  font-size: 1.5em;
+  margin: 5% 0 2% 0;
+}
+
+.buildList{
+  display: flex;
+}
+
+li{
+  flex-direction: column;
+  flex: 1;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  color: #E2492F;
+}
