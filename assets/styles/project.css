@@ -3,7 +3,8 @@
 body{
   margin: 0;
   font-family: 'Montserrat', sans-serif;
-  width: 98%;
+  width: 100%;
+  line-height: 1.5;
 }
 
 /*HEADER*/
@@ -11,26 +12,27 @@ body{
 .headerWrapper{
   width: 100%;
   margin: 0 auto 2% auto;
-  padding: 1% 2% 1% 2%;
+  padding: 1% 4% 1% 2%;
   align-items: center;
-  /*box-shadow: 0px 3px 15px rgba(48, 48, 48, 0.4);*/
 }
 
 .linkButtons{
+  padding-right: 3%;
   float: right;
-  width: 30%;
+  width: 38%;
   margin-top: .8%;
   display: flex;
   flex-basis: 5em;
   align-items: center;
+  justify-content: flex-end;
 }
 
 .linkButtons a{
-  flex-direction: column;
-  /*flex: .8;*/
+  flex-direction: row-reverse;
   text-align: center;
   margin: 0 2%;
 }
+
 
 #contactBtn{
   width: 4em;
@@ -79,8 +81,8 @@ body{
 /*PROJECT TITLE*/
 
 .titleWrapper{
-  width: 30%;
-  margin: 5% auto 0 auto;
+  width: 100%;
+  margin: 5% auto 2% auto;
   text-align: center;
 }
 
@@ -89,20 +91,20 @@ body{
 h2{
 display: block;
 font-family: 'Nunito', sans-serif;
-font-size: 2.5em;
+font-size: 3em;
 width: 98%;
-margin: 2% auto 2% auto;
+margin: 2% auto 0 auto;
 align-items: center;
 }
 
 .projectLine{
-  /*margin: 0 auto 5% auto;*/
-  font-size: 1.2em;
+  font-size: 1.4em;
 }
 
 .projectLink{
+  font-size: 1.2em;
   display: block;
-  margin-top: 5%;
+  margin-top: 4%;
 
 }
 
