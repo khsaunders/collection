@@ -156,7 +156,8 @@ a:hover{
 body{
   margin: 0 auto;
   font-family: 'Montserrat', sans-serif;
-  width: 98%;
+  width: 100%;
+  line-height: 1.5;
 }
 
   .headerWrapper{
@@ -167,7 +168,7 @@ body{
   }
 
 .fa-arrow-left{
-    font-size: 2em;
+    font-size: 2.45em;
     color: #E2492F;
     display: inline-block;
     margin-top: 2%;
@@ -223,12 +224,19 @@ display: none;
 
 .titleWrapper{
   margin-bottom: 5%;
+  background: url('../images/clarkStreetResize.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+
+  padding: 12% 0;
 }
 
 .titleWrapper a{
   display: block;
-  text-align: center;
   font-size: 1.45em;
+  color: white;
 }
 
 h2{
@@ -236,7 +244,7 @@ display: block;
 font-family: 'Nunito', sans-serif;
 font-size: 2.5em;
 width: 98%;
-margin: 2% auto 2% auto;
+margin: 2% auto 1% auto;
 }
 
 span{
@@ -256,14 +264,21 @@ a:hover{
     display: none;
   }
 
+  .projectDesc{
+    font-size: 1.25em;
+    padding: 0 3%;
+    }
+
   .projectDesc h4{
     font-size: 1.65em;
     display: block;
     margin: 2% 0;
   }
 
+
   .buildList{
     display: flex;
+    text-align: center;
   }
 
   .buildList li{
