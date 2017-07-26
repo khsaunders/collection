@@ -74,6 +74,7 @@ a:hover{
 }
 
 .bio{
+  line-height: 1.5;
   width: 65%;
   margin: 0 auto;
 }

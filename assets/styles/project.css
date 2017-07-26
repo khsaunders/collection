@@ -5,6 +5,57 @@ body{
   display: flex;
 }
 
+/*HEADER*/
+
+.headerWrapper{
+  width: 100%;
+  margin: 0 auto 2% auto;
+  padding: 1% 2% 1% 2%;
+  align-items: center;
+  /*box-shadow: 0px 3px 15px rgba(48, 48, 48, 0.4);*/
+}
+
+.linkButtons{
+  float: right;
+  width: 32%;
+  margin-top: .8%;
+}
+
+.linkButtons a{
+  margin: 0 1%;
+}
+
+#contactBtn{
+  background-color: #E2492F;
+  color: white;
+  padding: .5% 1%;
+  border-radius: 1px;
+  margin-right: 1%;
+}
+
+#contactBtn:hover{
+  background-color: white;
+  color: #E2492F;
+  border: solid .5px #E2492F;
+  margin-right: .5%;
+}
+
+.fa-home{
+  color: #E2492F;
+  font-size: 1.5em;
+}
+
+.fa-home:hover{
+  cursor: pointer;
+}
+
+#myName{
+  font-size: 1.45em;
+  font-family: 'Nunito', sans-serif;
+}
+
+/*PROJECT TITLE*/
+
 .titleWrapper{
   width: 30%;
   margin: 5% auto 0 auto;
@@ -14,6 +65,7 @@ body{
 /*BODY*/
 
 h2{
+display: block;
 font-family: 'Nunito', sans-serif;
 font-size: 2em;
 width: 98%;
@@ -27,7 +79,9 @@ align-items: center;
 }
 
 .projectLink{
-  margin-top: 25em;
+  display: block;
+  margin-top: 5%;
+
 }
 
 /*content div -- flex container ftw*/
