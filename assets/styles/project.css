@@ -23,7 +23,7 @@ body{
   margin-top: .8%;
   display: flex;
   flex-basis: 5em;
-  align-items: center;
+  align-items: bottom;
   justify-content: flex-end;
 }
 
@@ -39,9 +39,10 @@ body{
   height: 1.2em;
   background-color: #E2492F;
   color: white;
-  padding: .5% 1%;
+  padding: .5% 1% .65% 1%;
   border-radius: 1px;
   margin: 0 1.5%;
+  align-self: center;
 }
 
 #contactBtn:hover{
@@ -106,6 +107,10 @@ align-items: center;
   display: block;
   margin-top: 4%;
 
+}
+
+.optimizedWarning{
+  font-size: .7em;
 }
 
 /*content div -- flex container ftw*/
@@ -231,8 +236,19 @@ display: none;
   background-repeat: no-repeat;
   text-align: center;
   color: white;
-
   padding: 12% 0;
+}
+
+#doItTitle{
+  background: url('../images/andrewNeel.png');
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+#pearlTitle{
+  background: url('../images/jeffSheldon.png');
+  background-position: bottom;
+  background-repeat: no-repeat;
 }
 
 .titleWrapper a{
