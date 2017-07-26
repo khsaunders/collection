@@ -159,6 +159,27 @@ a{
 a:hover{
   color: #E2492F;
   }
+
+  footer{
+    text-align: center;
+    margin: 0 auto 1% auto;
+  }
+
+  .footerLinks a{
+    display: inline-block;
+    font-size: 1.8em;
+    color: #E2492F;
+    margin: 0 .6% .95% .6%;
+  }
+
+  .footerLinks a:hover{
+    cursor: pointer;
+  }
+  .copyright{
+    width: 100%;
+    text-align: center;
+    font-size: .85em;
+  }
 }
 
 /**************************TABLET VIEW*************************/
@@ -315,6 +336,10 @@ a:hover{
   .buildList li{
     flex: 1;
   }
+
+  .footerLinks{
+    display: none;
+  }
 }
 
 /**************************MOBILE VIEW*************************/
@@ -327,16 +352,9 @@ a:hover{
     line-height: 1.5;
   }
 
-    .headerWrapper{
-      width: 100%;
-      margin: 0 auto 2% auto;
-      padding: 1% 2% 1% 2%;
-      align-items: center;
-    }
-
   .fa-arrow-left{
       font-size: 2.45em;
-      color: #E2492F;
+      color: white;
       display: inline-block;
       margin-top: 2%;
       width: 10%;
@@ -354,6 +372,43 @@ a:hover{
   }
 
   #personalTitle{
+    display: none;
+  }
+
+  .headerWrapper{
+    width: 100%;
+    padding-bottom: 5%;
+    overflow-y: hidden;
+    background-color: #E2492F;
+    color: white;
+    margin-bottom: 5%;
+  }
+
+  .headerWrapper a{
+    color: white;
+  }
+
+  .mobileMenu{
+    width: 70%;
+    margin: 0 auto 2% auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mobileMenu a{
+    font-size: 3em;
+    flex-direction: row;
+    flex: 1;
+    text-align: center;
+    color: #E2492F;
+  }
+
+  .tabletMenu{
+    display: none;
+  }
+
+  .footerLinks a{
     display: none;
   }
 }
