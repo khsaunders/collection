@@ -239,7 +239,7 @@ display: none;
 
 
 #shoppingListTitle{
-  background: url('../images/clarkStreetResize.jpg');
+  background: url('../images/clarkStreetResize.png');
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -306,5 +306,46 @@ a:hover{
 
   .buildList li{
     flex: 1;
+  }
+}
+
+/**************************MOBILE VIEW*************************/
+
+@media only screen and (max-width: 552px){
+  body{
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    line-height: 1.5;
+  }
+
+    .headerWrapper{
+      width: 100%;
+      margin: 0 auto 2% auto;
+      padding: 1% 2% 1% 2%;
+      align-items: center;
+    }
+
+  .fa-arrow-left{
+      font-size: 2.45em;
+      color: #E2492F;
+      display: inline-block;
+      margin-top: 2%;
+      width: 10%;
+    }
+
+  #myName{
+    font-size: 2.6em;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+  }
+
+  #mobilePhone{
+    text-align: center;
+    font-size: 1.3em;
+  }
+
+  #personalTitle{
+    display: none;
   }
 }
