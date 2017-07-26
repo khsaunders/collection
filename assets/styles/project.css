@@ -76,6 +76,10 @@ body{
   display: none;
 }
 
+.mobileMenu{
+  display: none;
+}
+
 .tabletMenu{
   display: none;
 }
@@ -201,6 +205,10 @@ body{
 
 .linkButtons a{
 display: none;
+}
+
+.mobileMenu{
+  display: none;
 }
 
 .tabletMenu{
