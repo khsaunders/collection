@@ -317,12 +317,12 @@ a:hover{
   }
 
   .projectDesc{
-    font-size: 1.25em;
+    font-size: 1.1em;
     padding: 0 3%;
     }
 
   .projectDesc h4{
-    font-size: 1.65em;
+    font-size: 1.3em;
     display: block;
     margin: 2% 0;
   }
@@ -353,10 +353,10 @@ a:hover{
   }
 
   .fa-arrow-left{
-      font-size: 2.45em;
+      font-size: 2em;
       color: white;
       display: inline-block;
-      margin-top: 2%;
+      margin: 2% 0 0 3%;
       width: 10%;
     }
 
@@ -377,11 +377,11 @@ a:hover{
 
   .headerWrapper{
     width: 100%;
-    padding-bottom: 5%;
+    padding: 0 0 5% 0;
     overflow-y: hidden;
     background-color: #E2492F;
     color: white;
-    margin-bottom: 5%;
+    margin: 0 auto 5% 0;
   }
 
   .headerWrapper a{
