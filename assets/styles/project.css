@@ -1,5 +1,6 @@
-/**************************DESKTOP VIEW*************************/
-@media only screen and (min-width: 1011px){
+  /**************************DESKTOP VIEW*************************/
+
+@media only screen and (min-width: 1011px) {
 body{
   margin: 0;
   font-family: 'Montserrat', sans-serif;
@@ -75,7 +76,7 @@ body{
   display: none;
 }
 
-.mobileMenu{
+.tabletMenu{
   display: none;
 }
 
@@ -156,7 +157,7 @@ a:hover{
   }
 }
 
-/**************************MOBILE VIEW*************************/
+/**************************TABLET VIEW*************************/
 
 @media only screen and (max-width: 1010px){
 
@@ -202,14 +203,14 @@ body{
 display: none;
 }
 
-.mobileMenu{
+.tabletMenu{
   display: flex;
   width: 100%;
   align-items: center;
   padding: 3% 0;
 }
 
-.mobileMenu a{
+.tabletMenu a{
   flex-direction: column;
   padding: 1.45% 3.5%;
   margin: 0 5%;
@@ -222,7 +223,7 @@ display: none;
   text-align: center;
 }
 
-.mobileMenu a:hover{
+.tabletMenu a:hover{
   margin: 0 4.75%;
   border: solid 2px #E2492F;
   background-color: white;
@@ -231,12 +232,16 @@ display: none;
 
 .titleWrapper{
   margin-bottom: 5%;
-  background: url('../images/clarkStreetResize.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
   text-align: center;
   color: white;
   padding: 12% 0;
+}
+
+
+#shoppingListTitle{
+  background: url('../images/clarkStreetResize.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #doItTitle{

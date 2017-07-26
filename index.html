@@ -18,13 +18,18 @@
 
       <!--contact text links right corner-->
       <div class="linkButtons">
-        <a href="https://drive.google.com/file/d/0BzdKXb59uZdRRDlyR2xoalhYaWc/view?usp=sharing" target="_blank">
+        <a class="individualLinks" href="https://drive.google.com/file/d/0BzdKXb59uZdRZmtMX0dJU0NfSk0/view?usp=sharing" target="_blank">
   résumé</a>
-        <a href="https://github.com/khsaunders" target="_blank">
+        <a class="individualLinks" href="https://github.com/khsaunders" target="_blank">
   github</a>
-        <a href="views/contact.html" id="contactBtn">
+        <a class="individualLinks" href="views/contact.html" id="contactBtn">
   contact</a>
-        <a href="tel:919-797-9315" id="phoneNumber">(919) 797-9315</a>
+        <a class="individualLinks" href="tel:919-797-9315" id="phoneNumber">(919) 797-9315</a>
+
+        <a href="index.html">
+          <i class="fa fa-home" aria-hidden="true"></i>
+        </a>
+
       </div>
 
       <!--contact text links left corner-->
@@ -36,24 +41,68 @@
         <li class="nameLinks-contact" id="personalTitle">
           UI/Front-End
         </li>
+
+        <!--mobile view contact number-->
+        <li class="nameLinks-contact" id="mobilePhone">
+        (919) 797-9315
+        </li>
+        <!---------------------------->
+
+      </ul>
     </div>
 
   </header>
 
+  <!--mobile and tablet view menu-->
+
+  <div class="tabletMenu">
+    <a href="https://drive.google.com/file/d/0BzdKXb59uZdRRDlyR2xoalhYaWc/view?usp=sharing" target="_blank">
+          résumé</a>
+    <a href="https://github.com/khsaunders" target="_blank">
+          github</a>
+    <a href="tel:919-797-9315" id="contactBtn">
+          contact</a>
+  </div>
+
+  <!------------------------------->
+
+
+  <div class="bio">
+    <p> I live for beautiful design and exciting code opportunities. My specialties are of the front-end nature, including JavaScript (with frameworks like React and AngularJS), HTML, and CSS (though I have a growing love for Ruby and Node.js). I'd love to
+      work with you!
+    </p>
+  </div>
+
+  <!--mobile and tablet view project grid-->
+  <div class="tabletGrid">
+    <ul class="tabletProjList">
+      <a href="shoppingList.html">
+        <li>shoppingList</li>
+      </a>
+      <a href="toDoList.html">
+        <li>do it</li>
+      </a>
+      <a href="pearl.html">
+        <li>Pearl</li>
+      </a>
+    </ul>
+  </div>
+  <!--------------------------------->
+
   <div class="picGrid">
-    <div class = "col">
+    <div class="col">
       <img class="picGridimg" src="assets/images/shoppingTrip.jpg">
       <span class="projLink">
         <a href="https://khsaunders.github.io/shoppingList/" target="_blank">live site</a>
       </span>
     </div>
-    <div class = "col">
+    <div class="col">
       <img class="picGridimg" src="assets/images/doWork.jpg">
       <span class="projLink">
         <a href="https://khsaunders.github.io/just_do_it/#!/home" target="_blank">live site</a>
       </span>
     </div>
-    <div class = "col">
+    <div class="col">
       <img class="picGridimg" src="assets/images/oldManCafe.jpg">
       <span class="projLink">
         <a href="https://bubble-a6b08.firebaseapp.com/#/home" target="_blank">live site</a>
@@ -61,8 +110,8 @@
     </div>
   </div>
 
-  <div class="bio">
-    <p> I live for beautiful design and exciting code opportunities. My specialties are of the front-end nature, including JavaScript (with frameworks like React and AngularJS), HTML, and CSS (though I have a growing love for Ruby and Node.js). I'd love to work with you!
+  <footer>
+  </footer>
 
   <script src="assets/js/main.js"></script>
 </body>
