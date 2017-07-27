@@ -8,6 +8,15 @@ body{
   line-height: 1.5;
 }
 
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  color: #E2492F;
+  }
+
 /*HEADER*/
 
 .headerWrapper{
@@ -17,36 +26,44 @@ body{
   align-items: center;
 }
 
-.linkButtons{
+.desktopBackNav{
+  font-size: 1.2em;
+  float: left;
+  margin-left: 5%;
+  padding-bottom: .25%;
+  border-bottom: solid 1px black;
+}
+
+.desktopBackNav:hover{
+  border-bottom: solid 1px #E2492F;
+}
+
+.linkButtons {
   padding-right: 3%;
   float: right;
   width: 38%;
   margin-top: .8%;
   display: flex;
   flex-basis: 5em;
-  align-items: bottom;
+  align-items: center;
   justify-content: flex-end;
 }
-
-.linkButtons a{
+.linkButtons a {
   flex-direction: row-reverse;
   text-align: center;
   margin: 0 2%;
 }
-
-
-#contactBtn{
+#contactBtn {
   width: 4em;
-  height: 1.2em;
   background-color: #E2492F;
   color: white;
-  padding: .5% 1% .65% 1%;
+  padding: .65% 1% .65% 1%;
   border-radius: 1px;
   margin: 0 1.5%;
   align-self: center;
+  align-items: center;
 }
-
-#contactBtn:hover{
+#contactBtn:hover {
   background-color: white;
   color: #E2492F;
   border: solid .5px #E2492F;
@@ -177,14 +194,6 @@ li{
   flex: 1;
 }
 
-a{
-  text-decoration: none;
-  color: black;
-}
-
-a:hover{
-  color: #E2492F;
-  }
 
   footer{
     padding-top: 10%;
@@ -354,6 +363,10 @@ a:hover{
     margin: 2% 0;
   }
 
+  .desktopBackArrow{
+    display: none;
+  }
+
 
   .buildList{
     display: flex;
@@ -413,6 +426,10 @@ a:hover{
 
   .headerWrapper a{
     color: white;
+  }
+
+  .desktopBackArrow{
+    display: none;
   }
 
   .mobileMenu{
