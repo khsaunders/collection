@@ -286,6 +286,7 @@ display: none;
   display: inline-block;
   width: 33%;
   text-align: center;
+  border: 2px transparent solid;
 }
 
 .tabletMenu a:hover{

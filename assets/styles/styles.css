@@ -204,6 +204,7 @@
     display: inline-block;
     width: 33%;
     text-align: center;
+    border: solid transparent 2px;
   }
 
   .tabletMenu a:hover{
