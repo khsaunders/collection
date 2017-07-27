@@ -352,11 +352,6 @@ a:hover{
     display: none;
   }
 
-  .projectDesc{
-    font-size: 1.1em;
-    padding: 0 3%;
-    }
-
   .projectDesc h4{
     font-size: 1.3em;
     display: block;
@@ -371,6 +366,12 @@ a:hover{
   .buildList li{
     flex: 1;
   }
+
+  .projectDesc{
+    font-size: 1.1em;
+    padding: 0 3%;
+    margin-bottom: 5%;
+    }
 
   .footerLinks{
     display: none;
