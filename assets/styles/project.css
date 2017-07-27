@@ -363,11 +363,6 @@ a:hover{
     margin: 2% 0;
   }
 
-  .desktopBackNav{
-    display: none;
-  }
-
-
   .buildList{
     display: flex;
     text-align: center;
@@ -378,6 +373,10 @@ a:hover{
   }
 
   .footerLinks{
+    display: none;
+  }
+
+  .desktopBackNav a{
     display: none;
   }
 }
@@ -428,10 +427,6 @@ a:hover{
     color: white;
   }
 
-  .desktopBackNav{
-    display: none;
-  }
-
   .mobileMenu{
     width: 70%;
     margin: 0 auto 2% auto;
@@ -453,6 +448,10 @@ a:hover{
   }
 
   .footerLinks a{
+    display: none;
+  }
+
+  .desktopBackNav a{
     display: none;
   }
 }
