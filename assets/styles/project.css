@@ -147,6 +147,12 @@ align-items: center;
   margin-left: -12%;
 }
 
+#shoppingListMacbook{
+  width: 120%;
+  float:left;
+  margin-left: -12%;
+}
+
 .projectDesc{
   flex-direction: column;
   width: 45%;
