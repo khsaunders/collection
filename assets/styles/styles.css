@@ -13,8 +13,8 @@
     color: #E2492F;
   }
   .headerWrapper {
-    width: 100%;
-    margin: 0 auto 2% auto;
+    width: 80%;
+    margin: 1% auto 2% auto;
     padding: 1% 4% 1% 2%;
     align-items: center;
   }
@@ -76,7 +76,7 @@
   }
 
   .picGrid {
-    width: 85%;
+    width: 60%;
     padding: 5%;
     display: flex;
     flex-basis: auto;
@@ -102,7 +102,7 @@
   }
   .bio {
     line-height: 1.5;
-    width: 65%;
+    width: 60%;
     margin: 0 auto;
   }
 
