@@ -100,9 +100,44 @@
     margin: 0 auto;
     display: none;
   }
+
+  .gridBuildSummary {
+  display: none;
+  flex-grow: 1;
+  width: 95%;
+  height: 100%;
+  justify-content: center;
+  align-content: center;
+
+}
+
+.gridBuildSummary h4{
+  text-align: center;
+  font-size: 1.6em;
+  margin-bottom: 3%;
+  font-family: 'Nunito', sans-serif;
+}
+
+.gridBuildSummary p{
+  margin-top: 45%;
+  text-align: center;
+  color: #E2492F;
+}
+
+
+.picGrid a:hover .gridBuildSummary{
+  display: block;
+  color: black;
+}
+
+.picGrid a:hover img{
+  display: none;
+}
+
   .bio {
+    font-size: 1.25em;
     line-height: 1.5;
-    width: 60%;
+    width: 58.8%;
     margin: 0 auto;
   }
 
