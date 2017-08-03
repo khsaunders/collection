@@ -3,7 +3,7 @@
 @media only screen and (min-width: 1011px) {
 body{
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   width: 100%;
   line-height: 1.5;
 }
@@ -26,15 +26,16 @@ a:hover{
   align-items: center;
 }
 
-.desktopBackNav{
+.desktopBackNav a{
   font-size: 1.2em;
   float: left;
   margin-left: 5%;
-  padding-bottom: .25%;
-  border-bottom: solid 1px black;
+  padding-bottom: .45%;
+  color: #E2492F;
+  border-bottom: solid 1px transparent;
 }
 
-.desktopBackNav:hover{
+.desktopBackNav a:hover{
   border-bottom: solid 1px #E2492F;
 }
 
@@ -85,7 +86,7 @@ a:hover{
 }
 
 #myName{
-  font-size: 1.65em;
+  font-size: 2em;
   font-family: 'Nunito', sans-serif;
 }
 
@@ -125,10 +126,17 @@ align-items: center;
 }
 
 .projectLink{
+  width: 16.15%;
+  color: #E2492F;
   font-size: 1.2em;
   display: block;
-  margin-top: 4%;
+  margin: 4% auto 0 auto;
+  border: solid 1px transparent;
+  padding-bottom: .45%;
+}
 
+.projectLink:hover{
+  border-bottom: solid 1px #E2492F;
 }
 
 .optimizedWarning{
@@ -224,7 +232,7 @@ li{
 
 body{
   margin: 0 auto;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   width: 100%;
   line-height: 1.5;
 }
@@ -388,7 +396,7 @@ a:hover{
 @media only screen and (min-width : 320px) and (max-width: 600px){
   body{
     margin: 0 auto;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     width: 100%;
     line-height: 1.5;
   }
