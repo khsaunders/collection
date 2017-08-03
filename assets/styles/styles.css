@@ -143,6 +143,29 @@
     margin: 0 auto;
   }
 
+  .aboutMeWrapper{
+    display: flex;
+    margin: 7% auto 5% auto;
+    width: 60%;
+  }
+
+  .aboutMeWrapper img{
+    border-radius: 2px;
+    width: auto;
+    height: 350px;
+    flex-direction: column;
+  }
+
+  .aboutMePDiv{
+    width: 50%;
+  }
+
+  .aboutMeP{
+    width: 70%;
+    float: right;
+    line-height: 1.5;
+  }
+
   footer{
     text-align: center;
     margin: 0 auto 1% auto;
@@ -241,12 +264,12 @@
     display: inline-block;
     width: 33%;
     text-align: center;
-    border: solid transparent 2px;
+    border: solid transparent 1px;
   }
 
   .tabletMenu a:hover{
     margin: 0 4.75%;
-    border: solid 2px #E2492F;
+    border: solid 1px #E2492F;
     background-color: white;
     color: #E2492F;
   }
@@ -284,6 +307,37 @@
   .bio{
     margin: 2% auto;
     width: 80%;
+    font-size: 1.35em;
+  }
+
+  .aboutMeWrapper{
+    margin: 7% auto 5% auto;
+    width: 80%;
+    float: none;
+  }
+
+  .aboutMeImgDiv{
+    margin: auto;
+  }
+
+  .aboutMeWrapper img{
+    border-radius: 2px;
+    width: auto;
+    height: 250px;
+    margin: auto;
+    display: block;
+  }
+
+  .aboutMePDiv{
+    width: 80%;
+    margin: 5% auto 0 auto;
+  }
+
+  .aboutMeP{
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.5;
+    font-size: 1.3em;
   }
 
   footer{
@@ -361,6 +415,17 @@
 
   .bio{
     margin-bottom: 8%;
+  }
+
+  .aboutMePDiv{
+    width: 100%;
+  }
+
+  .aboutMeP{
+    text-align: left;
+    margin: 0 auto;
+    line-height: 1.5;
+    font-size: 1.3em;
   }
 
   .footerLinks a{
