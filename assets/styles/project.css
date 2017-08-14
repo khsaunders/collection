@@ -168,16 +168,20 @@ align-items: center;
   align-items: center;
 }
 
+#pearlPhone{
+  width: 60%;
+}
+
 #doItMacbook{
   width: 120%;
   float:left;
   margin-left: -12%;
 }
 
-#shoppingListMacbook{
-  width: 120%;
-  float:left;
-  margin-left: -12%;
+#preservePhone{
+  width: 60%;
+  /*float:left;*/
+  /*margin-left: -12%;*/
 }
 
 .projectDesc{
