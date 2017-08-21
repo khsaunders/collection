@@ -223,6 +223,7 @@ li{
 .processPhotos img{
   width: auto;
   height: 20em;
+  padding: 0 6%;
 }
 
 #preserveDrawing{
