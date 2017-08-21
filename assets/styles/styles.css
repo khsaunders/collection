@@ -163,21 +163,38 @@
     width: 60%;
   }
 
-  .aboutMeWrapper img{
+  #selfPortrait{
     border-radius: 2px;
     width: auto;
-    height: 350px;
+    height: 275px;
     flex-direction: column;
+    margin-bottom: 10%;
+  }
+
+  #butters{
+    height: 275px;
+    width: auto;
+    border-radius: 2px;
+    flex-direction: column;
+    float: left;
+    margin-bottom: 2%;
+  }
+
+  .imgCaption{
+    display: block;
+    font-size: .85em;
+    padding-top: 5%;
   }
 
   .aboutMePDiv{
-    width: 50%;
+    width: 100%;
   }
 
   .aboutMeP{
-    width: 70%;
+    width: 90%;
     float: right;
     line-height: 1.5;
+    padding-top: 5%;
   }
 
   footer{
