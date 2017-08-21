@@ -1,451 +1,383 @@
   /**************************DESKTOP VIEW*************************/
 
-@media only screen and (min-width: 1011px) {
-body{
-  margin: 0 auto;
-  font-family: 'Work Sans', sans-serif;
-  width: 80%;
-  line-height: 1.5;
-  font-weight: 200;
-}
-
-a{
-  text-decoration: none;
-  color: black;
-}
-
-a:hover{
-  color: #E2492F;
-  }
-
-/*HEADER*/
-
-.headerWrapper{
-  width: 100%;
-  margin: 0 auto 2% auto;
-  padding: 1% 4% 1% 2%;
-  align-items: center;
-}
-
-.desktopBackNav a{
-  font-size: 1.2em;
-  float: left;
-  margin-left: 2%;
-  padding-bottom: .45%;
-  color: #E2492F;
-  border-bottom: solid 1px transparent;
-}
-
-.desktopBackNav a:hover{
-  border-bottom: solid 1px #E2492F;
-}
-
-.linkButtons {
-  padding-right: 3%;
-  float: right;
-  width: 45%;
-  margin-top: .8%;
-  display: flex;
-  flex-basis: 5em;
-  align-items: center;
-  justify-content: flex-end;
-}
-.linkButtons a {
-  flex-direction: row-reverse;
-  text-align: center;
-  margin: 0 2%;
-}
-#contactBtn {
-  width: 4em;
-  background-color: #E2492F;
-  color: white;
-  padding: .65% 1% .65% 1%;
-  border-radius: 1px;
-  margin: 0 1.5%;
-  align-self: center;
-  align-items: center;
-}
-#contactBtn:hover {
-  background-color: white;
-  color: #E2492F;
-  border: solid .5px #E2492F;
-  margin: 0 1.3%;
-  padding: .5% 1%;
-}
-
-.fa-home{
-  color: #E2492F;
-  font-size: 1.5em;
-}
-
-.fa-home:hover{
-  cursor: pointer;
-}
-
-.fa-arrow-left{
-  display: none;
-}
-
-#myName{
-  font-size: 2em;
-  font-family: 'Nunito', sans-serif;
-}
-
-#mobilePhone{
-  display: none;
-}
-
-.mobileMenu{
-  display: none;
-}
-
-.tabletMenu{
-  display: none;
-}
-
-/*PROJECT TITLE*/
-
-.titleWrapper{
-  width: 80%;
-  margin: 5% auto 2% auto;
-  text-align: center;
-}
-
-/*BODY*/
-
-h2{
-display: block;
-font-family: 'Nunito', sans-serif;
-font-size: 2em;
-width: 98%;
-margin: 2% auto 0 auto;
-align-items: center;
-}
-
-.projectLine{
-  font-size: 1.4em;
-}
-
-.projectLink{
-  width: 22.6%;
-  color: #E2492F;
-  font-size: 1.2em;
-  display: block;
-  border-radius: 2px;
-  margin: 1% auto 0 auto;
-  border: solid 1px transparent;
-  padding-bottom: .45%;
-}
-
-.projectLink:hover{
-  border-bottom: solid 1px #E2492F;
-}
-
-.optimizedWarning{
-  font-size: .7em;
-}
-
-/*content div -- flex container ftw*/
-
-.contentWrapper{
-  display: flex;
-  margin-top: 7%;
-}
-
-.projectImage{
-  width: 50%;
-  flex-direction: column;
-  margin-left: 3%;
-}
-
-.desktopProjImage{
-  width: 80%;
-  flex-direction: column;
-  float: left;
-}
-
-#macBookImg{
-  align-items: center;
-}
-
-#pearlPhone{
-  width: 60%;
-}
-
-#doItMacbook{
-  width: 120%;
-  float:left;
-  margin-left: -12%;
-}
-
-#preservePhone{
-  width: 60%;
-  /*float:left;*/
-  /*margin-left: -12%;*/
-}
-
-.projectDesc{
-  flex-direction: column;
-  width: 45%;
-  margin: 0 2%;
-}
-
-h4{
-  font-size: 1.5em;
-  margin: 5% 0 2% 0;
-}
-
-.buildList{
-  display: flex;
-}
-
-#inDescLink{
-  color: #E2492F;
-}
-
-li{
-  flex-direction: column;
-  flex: 1;
-}
-.processHeader{
-  display: block;
-  text-align: center;
-  font-size: 1.6em;
-  margin: 3% auto 2% auto;
-}
-.processPhotos{
-  display: flex;
-  width: 90%;
-  margin: 5% auto 2% auto;
-  justify-content: space-around;
-}
-
-.processPhotos img{
-  width: auto;
-  height: 20em;
-  padding: 0 6%;
-}
-
-#preserveDrawing{
-  width: auto;
-  height: 20em;
-}
-
-.tabletMobileFooterLink{
-  display: none;
-}
-
-.ghRepoLink{
-  display: block;
-  margin-top: 10%;
-  color: #E2492F;
-  border-bottom: solid 1px transparent;
-  width: 30%;
-  text-align: center;
-}
-
-.ghRepoLink:hover{
-  border-bottom: solid 1px #E2492F;
-}
-
-  footer{
-    padding-top: 10%;
-    text-align: center;
-    margin: 0 auto 1% auto;
-  }
-
-  .footerLinks a{
-    display: inline-block;
-    font-size: 1.8em;
-    color: #E2492F;
-    margin: 0 .6% .95% .6%;
-  }
-
-  .footerLinks a:hover{
-    cursor: pointer;
-  }
-  .copyright{
-    width: 100%;
-    text-align: center;
-    font-size: .85em;
-  }
-}
-
-/**************************TABLET VIEW*************************/
-
-@media only screen and (max-width: 1010px){
-
-body{
-  margin: 0 auto;
-  font-family: 'Work Sans', sans-serif;
-  width: 100%;
-  line-height: 1.5;
-}
-
-  .headerWrapper{
-    width: 100%;
-    margin: 0 auto 2% auto;
-    padding: 1% 2% 1% 2%;
-    align-items: center;
-  }
-
-.fa-arrow-left{
-    font-size: 2.45em;
-    color: #E2492F;
-    display: inline-block;
-    margin-top: 2%;
-    width: 10%;
-  }
-
-#myName{
-  font-size: 2.6em;
-  text-align: center;
-  font-family: 'Nunito', sans-serif;
-}
-
-#mobilePhone{
-  text-align: center;
-  font-size: 1.3em;
-}
-
-#personalTitle{
-  display: none;
-}
-
-
-.linkButtons a{
-display: none;
-}
-
-.mobileMenu{
-  display: none;
-}
-
-.tabletMenu{
-  display: flex;
-  width: 100%;
-  align-items: center;
-  padding: 3% 0;
-}
-
-.tabletMenu a{
-  flex-direction: column;
-  padding: 1.45% 3.5%;
-  margin: 0 5%;
-  border-radius: 2px;
-  background-color: #E2492F;
-  color: white;
-  font-size: 1.65em;
-  display: inline-block;
-  width: 33%;
-  text-align: center;
-  border: 1px transparent solid;
-}
-
-.tabletMenu a:hover{
-  margin: 0 4.75%;
-  border: solid 1px #E2492F;
-  background-color: white;
-  color: #E2492F;
-}
-
-.titleWrapper{
-  margin-bottom: 5%;
-  text-align: center;
-  color: white;
-  padding: 12% 0;
-}
-
-
-#shoppingListTitle{
-  background: url('../images/clarkStreetResize.png');
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-#doItTitle{
-  background: url('../images/andrewNeel.png');
-  background-position: bottom;
-  background-repeat: no-repeat;
-}
-
-#pearlTitle{
-  background: url('../images/jeffSheldon.png');
-  background-position: bottom;
-  background-repeat: no-repeat;
-}
-
-.titleWrapper a{
-  display: block;
-  font-size: 1.45em;
-  color: white;
-}
-
-h2{
-display: block;
-font-family: 'Nunito', sans-serif;
-font-size: 2.5em;
-width: 98%;
-margin: 2% auto 1% auto;
-}
-
-span{
-  display: none;
-}
-
-a{
-  text-decoration: none;
-  color: black;
-}
-
-a:hover{
-  color: #E2492F;
-  }
-
-  .desktopProjImage{
-    display: none;
-  }
-
-  .projectDesc h4{
-    font-size: 1.3em;
-    display: block;
-    margin: 2% 0;
-  }
-
-  .buildList{
-    display: flex;
-    text-align: center;
-  }
-
-  .buildList li{
-    flex: 1;
-  }
-
-  .projectLink{
-    border: solid 1px white;
-    width: 50%;
-    margin: 0 auto;
-  }
-
-  .projectLink:hover{
-    border: solid 1px #E2492F;
-  }
-
-  .projectDesc{
-    font-size: 1.1em;
-    padding: 0 3%;
-    margin-bottom: 5%;
+  @media only screen and (min-width: 1011px) {
+    body {
+      margin: 0 auto;
+      font-family: 'Work Sans', sans-serif;
+      width: 80%;
+      line-height: 1.5;
+      font-weight: 200;
     }
-
-    .processHeader{
+    a {
+      text-decoration: none;
+      color: black;
+    }
+    a:hover {
+      color: #E2492F;
+    }
+    /*HEADER*/
+    .headerWrapper {
+      width: 100%;
+      margin: 0 auto 2% auto;
+      padding: 1% 4% 1% 2%;
+      align-items: center;
+    }
+    .desktopBackNav a {
+      font-size: 1.2em;
+      float: left;
+      margin-left: 2%;
+      padding-bottom: .45%;
+      color: #E2492F;
+      border-bottom: solid 1px transparent;
+    }
+    .desktopBackNav a:hover {
+      border-bottom: solid 1px #E2492F;
+    }
+    .linkButtons {
+      padding-right: 3%;
+      float: right;
+      width: 45%;
+      margin-top: .8%;
+      display: flex;
+      flex-basis: 5em;
+      align-items: center;
+      justify-content: flex-end;
+    }
+    .linkButtons a {
+      flex-direction: row-reverse;
+      text-align: center;
+      margin: 0 2%;
+    }
+    #contactBtn {
+      width: 4em;
+      background-color: #E2492F;
+      color: white;
+      padding: .65% 1% .65% 1%;
+      border-radius: 1px;
+      margin: 0 1.5%;
+      align-self: center;
+      align-items: center;
+    }
+    #contactBtn:hover {
+      background-color: white;
+      color: #E2492F;
+      border: solid .5px #E2492F;
+      margin: 0 1.3%;
+      padding: .5% 1%;
+    }
+    .fa-home {
+      color: #E2492F;
+      font-size: 1.5em;
+    }
+    .fa-home:hover {
+      cursor: pointer;
+    }
+    .fa-arrow-left {
       display: none;
     }
-
-    .processPhotos{
+    #myName {
+      font-size: 2em;
+      font-family: 'Nunito', sans-serif;
+    }
+    #mobilePhone {
       display: none;
     }
+    .mobileMenu {
+      display: none;
+    }
+    .tabletMenu {
+      display: none;
+    }
+    /*PROJECT TITLE*/
+    .titleWrapper {
+      width: 80%;
+      margin: 5% auto 2% auto;
+      text-align: center;
+    }
+    /*BODY*/
+    h2 {
+      display: block;
+      font-family: 'Nunito', sans-serif;
+      font-size: 2em;
+      width: 98%;
+      margin: 2% auto 0 auto;
+      align-items: center;
+    }
+    .projectLine {
+      font-size: 1.4em;
+    }
+    .projectLink {
+      width: 153px;
+      color: #E2492F;
+      font-size: 1.2em;
+      display: block;
+      border-radius: 2px;
+      margin: 1% auto 0 auto;
+      border: solid 1px transparent;
+      padding-bottom: .45%;
+    }
+    .projectLink:hover {
+      border-bottom: solid 1px #E2492F;
+    }
+    .optimizedWarning {
+      font-size: .7em;
+    }
+    /*content div -- flex container ftw*/
+    .contentWrapper {
+      display: flex;
+      margin-top: 7%;
+    }
+    .projectImage {
+      width: 50%;
+      flex-direction: column;
+      margin-left: 3%;
+    }
+    .desktopProjImage {
+      width: 80%;
+      flex-direction: column;
+      float: left;
+    }
+    #macBookImg {
+      align-items: center;
+    }
+    #pearlPhone {
+      width: 60%;
+    }
+    #doItMacbook {
+      width: 120%;
+      float: left;
+      margin-left: -12%;
+    }
+    #preservePhone {
+      width: 60%;
+      /*float:left;*/
+      /*margin-left: -12%;*/
+    }
+    .projectDesc {
+      flex-direction: column;
+      width: 45%;
+      margin: 0 2%;
+    }
+    h4 {
+      font-size: 1.5em;
+      margin: 5% 0 2% 0;
+    }
+    .buildList {
+      display: flex;
+    }
+    #inDescLink {
+      color: #E2492F;
+    }
+    li {
+      flex-direction: column;
+      flex: 1;
+    }
+    .processHeader {
+      display: block;
+      text-align: center;
+      font-size: 1.6em;
+      margin: 3% auto 2% auto;
+    }
+    .processSections {
+      /*display: flex;*/
+      width: 90%;
+      /*flex-direction: row;*/
+    }
+    .processSections img {
+      width: auto;
+      height: 20em;
+      margin: 3% 0 0 3%;
+    }
+    .processSections ul {
+      display: flex;
+    }
+    .processSections p {
+      width: 40%;
+      float: right;
+      margin-top: 10%;
+      align-content: center;
+    }
+    #preserveDrawing {
+      width: auto;
+      height: 20em;
+    }
+    .tabletMobileFooterLink {
+      display: none;
+    }
+    .ghRepoLink {
+      display: block;
+      margin-top: 10%;
+      color: #E2492F;
+      border-bottom: solid 1px transparent;
+      width: 120px;
+      text-align: center;
+    }
+    .ghRepoLink:hover {
+      border-bottom: solid 1px #E2492F;
+    }
+    footer {
+      padding-top: 10%;
+      text-align: center;
+      margin: 0 auto 1% auto;
+    }
+    .footerLinks a {
+      display: inline-block;
+      font-size: 1.8em;
+      color: #E2492F;
+      margin: 0 .6% .95% .6%;
+    }
+    .footerLinks a:hover {
+      cursor: pointer;
+    }
+    .copyright {
+      width: 100%;
+      text-align: center;
+      font-size: .85em;
+    }
+  }
+  /**************************TABLET VIEW*************************/
 
-  .tabletMobileFooterLink{
+  @media only screen and (max-width: 1010px) {
+    body {
+      margin: 0 auto;
+      font-family: 'Work Sans', sans-serif;
+      width: 100%;
+      line-height: 1.5;
+    }
+    .headerWrapper {
+      width: 100%;
+      margin: 0 auto 2% auto;
+      padding: 1% 2% 1% 2%;
+      align-items: center;
+    }
+    .fa-arrow-left {
+      font-size: 2.45em;
+      color: #E2492F;
+      display: inline-block;
+      margin-top: 2%;
+      width: 10%;
+    }
+    #myName {
+      font-size: 2.6em;
+      text-align: center;
+      font-family: 'Nunito', sans-serif;
+    }
+    #mobilePhone {
+      text-align: center;
+      font-size: 1.3em;
+    }
+    #personalTitle {
+      display: none;
+    }
+    .linkButtons a {
+      display: none;
+    }
+    .mobileMenu {
+      display: none;
+    }
+    .tabletMenu {
+      display: flex;
+      width: 100%;
+      align-items: center;
+      padding: 3% 0;
+    }
+    .tabletMenu a {
+      flex-direction: column;
+      padding: 1.45% 3.5%;
+      margin: 0 5%;
+      border-radius: 2px;
+      background-color: #E2492F;
+      color: white;
+      font-size: 1.65em;
+      display: inline-block;
+      width: 33%;
+      text-align: center;
+      border: 1px transparent solid;
+    }
+    .tabletMenu a:hover {
+      margin: 0 4.75%;
+      border: solid 1px #E2492F;
+      background-color: white;
+      color: #E2492F;
+    }
+    .titleWrapper {
+      margin-bottom: 5%;
+      text-align: center;
+      color: white;
+      padding: 12% 0;
+    }
+    #preserveTitle {
+      background: url('../images/clarkStreetResize.png');
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    #doItTitle {
+      background: url('../images/andrewNeel.png');
+      background-position: bottom;
+      background-repeat: no-repeat;
+    }
+    #pearlTitle {
+      background: url('../images/jeffSheldon.png');
+      background-position: bottom;
+      background-repeat: no-repeat;
+    }
+    .titleWrapper a {
+      display: block;
+      font-size: 1.45em;
+      color: white;
+    }
+    h2 {
+      display: block;
+      font-family: 'Nunito', sans-serif;
+      font-size: 2.5em;
+      width: 98%;
+      margin: 2% auto 1% auto;
+    }
+    span {
+      display: none;
+    }
+    a {
+      text-decoration: none;
+      color: black;
+    }
+    a:hover {
+      color: #E2492F;
+    }
+    .desktopProjImage {
+      display: none;
+    }
+    .projectDesc h4 {
+      font-size: 1.3em;
+      display: block;
+      margin: 2% 0;
+    }
+    .buildList {
+      display: flex;
+      text-align: center;
+    }
+    .buildList li {
+      flex: 1;
+    }
+    .projectLink {
+      border: solid 1px white;
+      width: 250px;
+      margin: 0 auto;
+    }
+    .projectLink:hover {
+      border: solid 1px #E2492F;
+    }
+    .projectDesc {
+      font-size: 1.1em;
+      padding: 0 3%;
+      margin-bottom: 5%;
+    }
+    .processHeader {
+      display: none;
+    }
+    .processPhotos img {
+      display: none;
+    }
+    .tabletMobileFooterLink {
       display: block;
       width: 50%;
       text-align: center;
@@ -455,92 +387,99 @@ a:hover{
       border-radius: 2px;
       border: solid 1px #E2492F;
     }
-
-    .tabletMobileFooterLink:hover{
+    .tabletMobileFooterLink:hover {
       color: white;
       background-color: #E2492F;
     }
+    .processHeader{
+      display: none;
+    }
+    .processSections{
+      display: none;
+    }
 
-  .footerLinks{
-    display: none;
+    .processSections ul li{
+      display: none;
+    }
+    .footerLinks {
+      display: none;
+    }
+    .desktopBackNav a {
+      display: none;
+    }
   }
+  /**************************MOBILE VIEW*************************/
 
-  .desktopBackNav a{
-    display: none;
-  }
-}
-
-/**************************MOBILE VIEW*************************/
-
-@media only screen and (min-width : 320px) and (max-width: 600px){
-  body{
-    margin: 0 auto;
-    font-family: 'Work Sans', sans-serif;
-    width: 100%;
-    line-height: 1.5;
-  }
-
-  .fa-arrow-left{
+  @media only screen and (min-width: 320px) and (max-width: 600px) {
+    body {
+      margin: 0 auto;
+      font-family: 'Work Sans', sans-serif;
+      width: 100%;
+      line-height: 1.5;
+    }
+    .fa-arrow-left {
       font-size: 2em;
       color: white;
       display: inline-block;
       margin: 2% 0 0 3%;
       width: 10%;
     }
+    #myName {
+      font-size: 2.6em;
+      text-align: center;
+      font-family: 'Nunito', sans-serif;
+    }
+    #mobilePhone {
+      text-align: center;
+      font-size: 1.3em;
+    }
+    #personalTitle {
+      display: none;
+    }
+    .headerWrapper {
+      width: 100%;
+      padding: 0 0 5% 0;
+      overflow-y: hidden;
+      background-color: #E2492F;
+      color: white;
+      margin: 0 auto 5% 0;
+    }
+    .headerWrapper a {
+      color: white;
+    }
 
-  #myName{
-    font-size: 2.6em;
-    text-align: center;
-    font-family: 'Nunito', sans-serif;
-  }
+    .processHeader{
+      display: none;
+    }
+    .processSections{
+      display: none;
+    }
 
-  #mobilePhone{
-    text-align: center;
-    font-size: 1.3em;
-  }
+    .processSections ul li{
+      display: none;
+    }
 
-  #personalTitle{
-    display: none;
+    .mobileMenu {
+      width: 70%;
+      margin: 0 auto 2% auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .mobileMenu a {
+      font-size: 3em;
+      flex-direction: row;
+      flex: 1;
+      text-align: center;
+      color: #E2492F;
+    }
+    .tabletMenu {
+      display: none;
+    }
+    .footerLinks a {
+      display: none;
+    }
+    .desktopBackNav a {
+      display: none;
+    }
   }
-
-  .headerWrapper{
-    width: 100%;
-    padding: 0 0 5% 0;
-    overflow-y: hidden;
-    background-color: #E2492F;
-    color: white;
-    margin: 0 auto 5% 0;
-  }
-
-  .headerWrapper a{
-    color: white;
-  }
-
-  .mobileMenu{
-    width: 70%;
-    margin: 0 auto 2% auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .mobileMenu a{
-    font-size: 3em;
-    flex-direction: row;
-    flex: 1;
-    text-align: center;
-    color: #E2492F;
-  }
-
-  .tabletMenu{
-    display: none;
-  }
-
-  .footerLinks a{
-    display: none;
-  }
-
-  .desktopBackNav a{
-    display: none;
-  }
-}
