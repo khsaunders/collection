@@ -174,14 +174,11 @@
     }
     .processHeader {
       display: block;
-      text-align: center;
+      text-align: left;
       font-size: 1.6em;
-      margin: 3% auto 2% auto;
     }
     .processSections {
-      /*display: flex;*/
       width: 90%;
-      /*flex-direction: row;*/
     }
     .processSections img {
       width: auto;
