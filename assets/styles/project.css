@@ -24,9 +24,10 @@
     }
     .desktopBackNav a {
       font-size: 1.2em;
+      line-height: 1;
       float: left;
       margin-left: 2%;
-      padding-bottom: .45%;
+      padding-bottom: .35%;
       color: #E2492F;
       border-bottom: solid 1px transparent;
     }
@@ -109,12 +110,13 @@
     .projectLink {
       width: 153px;
       color: #E2492F;
+      line-height: 1;
       font-size: 1.2em;
       display: block;
       border-radius: 2px;
       margin: 1% auto 0 auto;
       border: solid 1px transparent;
-      padding-bottom: .45%;
+      padding-bottom: .35%;
     }
     .projectLink:hover {
       border-bottom: solid 1px #E2492F;
@@ -150,8 +152,7 @@
     }
     #preservePhone {
       width: 60%;
-      /*float:left;*/
-      /*margin-left: -12%;*/
+
     }
     .projectDesc {
       flex-direction: column;
