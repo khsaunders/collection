@@ -306,6 +306,10 @@
     color: #E2492F;
   }
 
+  .desktopBackNav{
+    display: none;
+  }
+
   .picGrid{
     display: none;
   }
@@ -356,7 +360,7 @@
     border-radius: 2px;
     width: auto;
     height: 250px;
-    margin: auto;
+    margin: 0 auto 5% auto;
     display: block;
   }
 
@@ -443,6 +447,10 @@
   }
 
   .tabletMenu{
+    display: none;
+  }
+
+  .desktopBackNav{
     display: none;
   }
 
