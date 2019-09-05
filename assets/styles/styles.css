@@ -3,7 +3,7 @@
 @media only screen and (min-width: 1011px) {
   body {
     margin: 0;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-weight: 200;
   }
   a {
@@ -20,8 +20,7 @@
     align-items: center;
   }
   .linkButtons {
-    font-size: 1.1em;
-    padding-right: 3%;
+    font-size: .8em;
     float: right;
     width: 50%;
     margin-top: .8%;
@@ -56,19 +55,19 @@
     color: white;
     padding: .95% 1% .75% 1%;
     border-radius: 1px;
-    margin: 0 1.5%;
+    margin: 0 1.3%;
     align-self: center;
   }
   #contactBtn:hover {
     background-color: white;
     color: #E2492F;
     border: solid .5px #E2492F;
-    margin: 0 1.3%;
+    margin: 0 1.5%;
     padding: .5% 1%;
   }
   #myName {
     font-size: 2em;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Rubik', sans-serif;
   }
 
   #mobilePhone{
@@ -76,7 +75,7 @@
   }
 
   .textLink{
-    color:#E2492F; 
+    color:#E2492F;
   }
 
   .mobileMenu{
@@ -137,7 +136,7 @@
   text-align: center;
   font-size: 1.6em;
   margin-bottom: 5%;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Rubik', sans-serif;
 }
 
 .gridBuildSummary p{
@@ -262,7 +261,7 @@
   #myName{
     font-size: 2.6em;
     text-align: center;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Rubik', sans-serif;
   }
 
   #mobilePhone{
@@ -324,7 +323,7 @@
     padding: 2% 0;
     width: 100%;
     font-size: 2.5em;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Rubik', sans-serif;
     text-align: center;
     background: url('../images/indexBackground.png');
     background-position: center;

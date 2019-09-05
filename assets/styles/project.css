@@ -3,10 +3,9 @@
   @media only screen and (min-width: 1011px) {
     body {
       margin: 0 auto;
-      font-family: 'Work Sans', sans-serif;
+      font-family: 'Rubik', sans-serif;
       width: 80%;
       line-height: 1.5;
-      font-weight: 200;
     }
     a {
       text-decoration: none;
@@ -35,7 +34,7 @@
       border-bottom: solid 1px #E2492F;
     }
     .linkButtons {
-      padding-right: 3%;
+      font-size: .8em;
       float: right;
       width: 45%;
       margin-top: .8%;
@@ -78,7 +77,7 @@
     }
     #myName {
       font-size: 2em;
-      font-family: 'Nunito', sans-serif;
+      font-family: 'Rubik', sans-serif;
     }
     #mobilePhone {
       display: none;
@@ -98,7 +97,7 @@
     /*BODY*/
     h2 {
       display: block;
-      font-family: 'Nunito', sans-serif;
+      font-family: 'Rubik', sans-serif;
       font-size: 2em;
       width: 98%;
       margin: 2% auto 0 auto;
@@ -207,7 +206,7 @@
       margin-top: 10%;
       color: #E2492F;
       border-bottom: solid 1px transparent;
-      width: 120px;
+      width: 140px;
       text-align: center;
     }
     .ghRepoLink:hover {
@@ -259,7 +258,7 @@
     #myName {
       font-size: 2.6em;
       text-align: center;
-      font-family: 'Nunito', sans-serif;
+      font-family: 'Rubik', sans-serif;
     }
     #mobilePhone {
       text-align: center;
@@ -327,7 +326,7 @@
     }
     h2 {
       display: block;
-      font-family: 'Nunito', sans-serif;
+      font-family: 'Rubik', sans-serif;
       font-size: 2.5em;
       width: 98%;
       margin: 2% auto 1% auto;
@@ -427,7 +426,7 @@
     #myName {
       font-size: 2.6em;
       text-align: center;
-      font-family: 'Nunito', sans-serif;
+      font-family: 'Rubik', sans-serif;
     }
     #mobilePhone {
       text-align: center;
