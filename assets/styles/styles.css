@@ -75,6 +75,10 @@
     display: none;
   }
 
+  .textLink{
+    color:#E2492F; 
+  }
+
   .mobileMenu{
     display: none;
   }
@@ -169,6 +173,7 @@
     height: 275px;
     flex-direction: column;
     margin-bottom: 10%;
+    align-items: center;
   }
 
   #butters{
