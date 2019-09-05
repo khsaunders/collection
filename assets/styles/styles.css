@@ -75,6 +75,10 @@
     display: none;
   }
 
+  .textLink{
+    color:#E2492F; 
+  }
+
   .mobileMenu{
     display: none;
   }
@@ -169,6 +173,7 @@
     height: 275px;
     flex-direction: column;
     margin-bottom: 10%;
+    align-items: center;
   }
 
   #butters{
@@ -228,6 +233,7 @@
     font-family: 'Work Sans', sans-serif;
     width: 100%;
     line-height: 1.5;
+    font-weight: 200;
   }
 
   a {
@@ -305,6 +311,10 @@
     color: #E2492F;
   }
 
+  .desktopBackNav{
+    display: none;
+  }
+
   .picGrid{
     display: none;
   }
@@ -355,7 +365,7 @@
     border-radius: 2px;
     width: auto;
     height: 250px;
-    margin: auto;
+    margin: 0 auto 5% auto;
     display: block;
   }
 
@@ -401,6 +411,7 @@
     font-family: 'Work Sans', sans-serif;
     width: 100%;
     line-height: 1.5;
+    font-weight: 200;
   }
 
   a {
@@ -441,6 +452,10 @@
   }
 
   .tabletMenu{
+    display: none;
+  }
+
+  .desktopBackNav{
     display: none;
   }
 
